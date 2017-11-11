@@ -8,8 +8,9 @@ class Post extends Component {
         // encodeURIComponent makes a string safe to include in a URL since some
         // characters are not allowed in URLs or need to be modified.
         return (
-            <div>
-                <p><label>Name:</label>{post.data.title}</p>
+            <div className='PostContainer'>
+                <img className='PostImage' src={post.data.thumbnail} />
+                <p>{post.data.title}</p>
             </div>
         );
     }

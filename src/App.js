@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <PostList posts={this.props.posts}/>
+        <PostList className=posts={this.props.posts}/>
       </div>
     );
   }

@@ -5,7 +5,7 @@ class PostList extends Component {
 
     render() {
         return (
-            <div className="PostList">
+            <div className="PostTimeline">
 
             	{this.props.posts.map(post =>
                     <Post key={post.url} post={post} />
